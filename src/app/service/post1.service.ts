@@ -15,6 +15,4 @@ export class Post1Service {
   getPosts() : Observable<Post[]>{
     return this.httpClient.get<Post[]>(this.url)
   }
-
-
 }
