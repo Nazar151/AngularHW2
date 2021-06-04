@@ -8,7 +8,9 @@ import {User2} from "../../module2/User2";
   styleUrls: ['./users2.component.css']
 })
 export class Users2Component implements OnInit {
+
 users2 : User2[] = [];
+
   constructor(private user2Service : User2Service) { }
 
   ngOnInit(): void {

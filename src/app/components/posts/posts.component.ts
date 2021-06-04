@@ -18,5 +18,4 @@ posts : Post[] = [];
       console.log(value);
     })
   }
-
 }

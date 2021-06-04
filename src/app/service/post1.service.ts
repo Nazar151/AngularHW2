@@ -13,6 +13,7 @@ export class Post1Service {
   constructor(private httpClient : HttpClient) { }
 
   getPosts() : Observable<Post[]>{
+
     return this.httpClient.get<Post[]>(this.url)
   }
 }
